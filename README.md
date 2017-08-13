@@ -9,6 +9,12 @@ From within the root directory:
 ```
 npm install && cd client && npm install && cd ..
 ```
+
+To start the api server AND the client dev server (will open up a hot-reloading webpage)
+```
+npm run start
+```
+
 ## License
 
 MIT

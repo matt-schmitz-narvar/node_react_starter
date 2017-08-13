@@ -1,0 +1,20 @@
+{
+  "name": "node_react_starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server.js",
+    "client": "node start-client.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "proxy": "http://localhost:3001/",
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  }
+}
